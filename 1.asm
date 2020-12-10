@@ -3,7 +3,7 @@ arr  : dq 0000000000000000H,4578457845784578H,9965589699655896H,7878787878787878
 cnt  : db 04H
 pos  : db 00H
 neg  : db 00H
-msg1 : db "Count of positive & negative numbers.",10
+msg1 : db "Count of pos+ve & negative numbers.",10
 len1 : equ $-msg1
 msg2 : db "Count of positive numbers= "
 len2 : equ $-msg2
